@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Front-End programozás II - Yoda Translater</title>
+    <style>
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Yoda Translater</h1>
+    
+    <input type="text" id="english-input">
+    <button id="submit">Translate</button><br>
+    <img id="loading-gif" src="./img/loading.gif" alt="Loading Text" class="hidden" width="100px">
+    <p id="output"></p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="yoda-request.js"></script>
+    <script src="yoda.js"></script>
+  </body>
+</html>
